@@ -1,12 +1,6 @@
-import random
 
-random_side = random.randint(0, 1)
-if random_side == 1:
-  print("Heads")
-else:
-  print ("Tails")
-
-
-  name = input("type:")
-  names =name.split(",")
-  print (names)
+row1 = ["⬜️","⬜️","⬜️"]
+row2 = ["⬜️","⬜️","⬜️"]
+row3 = ["⬜️","⬜️","⬜️"]
+map = [row1, row2, row3]
+print(f"{row1}, {row2} , {row3}")
